@@ -36,7 +36,7 @@ let getAnalyze = axios.post(analyzeURL, payload)
                 console.log("-------------------------------------------------\n")
                 console.log(recommendData)
                 console.log("-------------------------------------------------\n")
-                resultData = "# K6.io Performance & Stress Test Report\n" + "\n## Reports\n"+ analyzeData + "\n## Recommendation\n" + recommendData;
+                resultData = "# K6.io Performance & Stress Test Report\n" + "\n## Reports\n"+ analyzeData + "\n## Recommendation\n" + recommendData + "\n<hr>\n";
                 console.log("-------------------------------------------------\n")
                 console.log(resultData)
 
