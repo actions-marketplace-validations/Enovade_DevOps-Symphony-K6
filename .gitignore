@@ -1,6 +1,5 @@
 # Exclude files
 index.js
-git-cmd.js
 
 # Logs
 logs
