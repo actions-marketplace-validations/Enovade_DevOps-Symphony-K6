@@ -1,4 +1,4 @@
-name: 'Enovade AIOps GitHub Action'
+name: 'Enovade DevOps Symphony K6.io GitHub Action'
 description: 'Generating Performance & Stress Test report for K6.io'
 author: 'Hanafiah <hanafiah@enovade.com>'
 inputs:
