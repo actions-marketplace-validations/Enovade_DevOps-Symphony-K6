@@ -1,0 +1,24 @@
+name: 'Enovade AIOps GitHub Action'
+description: 'Generating Performance & Stress Test report for K6.io'
+author: 'Hanafiah <hanafiah@enovade.com>'
+inputs:
+  analyzeURL:
+    description: 'Endpoints for analysis'
+    required: true
+  recommendURL:
+    description: 'Endpoints for recommendation'
+    required: true
+  result:
+    description: 'K6 result file'
+    required: true
+outputs:
+  jawapan: 
+    description: 'The reports'
+    
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+
+branding:
+  color: 'blue'
+  icon: 'activity'
